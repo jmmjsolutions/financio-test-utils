@@ -7,9 +7,11 @@
 def login(page, login_url, userid, password):
     page.goto(login_url)
 
+    page.waitForSelector('input[name="email"]')
     # Fill input[name="email"]
     page.fill('input[name="email"]', userid)
 
+    page.click('input[name="password"]')
     # Fill input[name="password"]
     page.fill('input[name="password"]', password)
 
