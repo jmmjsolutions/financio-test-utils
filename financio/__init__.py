@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #
-#  This file is part of Multi-Financio TYest Utilities
+#  This file is part of Financio Test Utilities
 #
 
-__version__ = "0.1.0.0"
+__version__ = "0.2.0.0"
