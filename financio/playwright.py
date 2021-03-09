@@ -34,3 +34,4 @@ def evolve_login(page, login_url, userid, password):
     # Click text="Login"
     with page.expect_navigation():
         page.click("//span[normalize-space(.)='Login']")
+
